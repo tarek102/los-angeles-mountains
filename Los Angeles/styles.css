@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body {
+    font-family: Oswald;
+}
+
+.navp {
+    padding: 0 20%;
+}
+
+.nav-elements a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.nav-elements-2 a {
+    color: #414F6B;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.bg-image { 
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('images/LOSANGELES\ MOUNTAINS\ copy2.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+} 
+
+.bg-image-1 { 
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('images/peak.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+} 
+
+.hero-2 {
+    padding: 5% 20%;
+}
+
+.hero-2 > p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.carousel-div {
+    height: 198px;
+    background-color: RGBA(65, 79, 107, 0.7);
+    padding: 0 20%;
+}
+
+.carousel-control {
+    padding-top:10%;
+    width:5%;
+}
+
+.item {
+    margin-top: 35px;
+}
+
+.climb {
+    padding: 5% 20%;
+}
+
+.climb > div {
+    min-width: 260px;
+}
+
+.climb > p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.tabs > ul {
+    background-color: #414F6B;
+    padding: 0 20%;
+}
+
+.nav > .nav-item > .nav-link {
+    color: RGBA(176, 180, 190, 1);
+    font-weight: 500;
+}
+
+.nav > .nav-item > .active {
+    background-color: RGBA(176, 180, 190, 1);
+    border-radius: 0;
+    color: #414F6B;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-weight: 500;
+}
+
+.mountain-1 {
+    width: 100%; 
+    height: 100vh; 
+    background-image: url('images/photo-1417021423914-070979c8eb34.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+    padding: 5% 20%;
+}
+
+.mountain-2 {
+    width: 100%; 
+    height: 100vh; 
+    padding: 5% 20%;
+    background-image: url('images/photo-1414449381078-c7768b8f19b8.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+}
+
+.schedule {
+    width: 500px;
+    height: 232px;  
+    background-color: RGBA(255, 255, 255, 0.5);
+    padding: 5% 10%;
+}
+
+#title{
+    font-size: 32px;
+    color: #414F6B;
+    font-weight: bold;
+}
+
+.data {
+    font-weight: 300;
+}
+
+footer {
+    padding: 1% 20%;
+    /* height: 20px; */
+    background-color: #414F6B;
+}
+
+.copyrights {
+    color: #61759e;
+}
